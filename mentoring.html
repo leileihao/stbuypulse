@@ -1,92 +1,53 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-	<title>StuyPulse Mentoring</title>
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
-	<meta charset="utf-8">
-	<style type="text/css">
-		body {
-			font-family: "Raleway";
-		}
-		a {
-			text-decoration: none;
-			color: black;
-		}
-		#titleDiv {
-			position: absolute;
-			left: 5%;
-			top: 0%;
-		}
-		#pageLinksDiv {
-			position: absolute;
-			top: 5%;
-			right: 3%;
-		}
-		#pageLinks {
-			background-color: white;
-			font-size: 1.2em;
-		}
-		#pageLinks:hover {
-			background-color: red;
-		}
-		.leftBorder {
-			border-right-style: solid;
-			border-width: 2px;
-		}
-		#mainText {
-			position: absolute;
-			left: 5%;
-			right: 5%;
-			top: 15%;
-		}
-		#title {
-			font-size: 4em;
-		}
-		#mainCaption {
+    <head>
+        <title>World Maker Faire</title>
+        <link rel="stylesheet" href="subcategories.css"  charset="utf-8">
+        <!--<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
 
-		}
-		#imageSquare {
-			position: absolute;
-			top: 65%;
-			left: 5%;
-			right: 5%;
-		}
-		img {
-			height: 100%;
-			width: 100%;
-		}
-	</style>
-</head>
-<body>
-	<div id="titleDiv"><h1>StuyPulse Philanthropies</h1></div>
-	<div id="pageLinksDiv">
-		<table>
-			<tr>
-				<td id="pageLinks" class="leftBorder"><a href="volunteering.html">Volunteering </a></td>
-				<td id="pageLinks" class="leftBorder"><a href="mentoring.html">Mentoring </a></td>
-				<td id="pageLinks" class="leftBorder"><a href="outreach.html">Outreach </a></td>
-				<td id="pageLinks" class="leftBorder"><a href="about.html">About Us</a></td>
-				<td id="pageLinks"><a href="donate.html">Donate</a></td>
-			</tr>
-		</table>
-	</div>
-	<div id="mainText">
-		<span id="title">Mentoring</span>
-		<br>
-		<br>
-		<p id="mainCaption">type something here</p>
-	</div>
-	<div id="imageSquare">
-		<table>
-			<tr>
-				<td><img src="" alt="mentoring1"></td>
-				<td><img src="" alt="mentoring2"></td>
-			</tr>
-			<tr>
-				<td><img src="" alt="mentoring3"></td>
-				<td><img src="" alt="mentoring4"></td>
-			</tr>
-		</table>
-	</div>
-</body>
+    </head>
+    <body>
+		<header class="menu">
+			<div class="logo">
+				<a href="index.html">
+					<div> 
+						StuyPulse
+					</div>
+					<div>
+						Philanthropies
+					</div>
+				</a>
+			</div>
+			<nav class="links">
+				<a href="volunteering.html" class="nav-link">Volunteering</a>
+				<div class="link-border">|</div>
+				<a href="mentoring.html" class="nav-link">Mentoring</a>
+				<div class="link-border">|</div>
+				<a href="outreach.html" class="nav-link">Outreach</a>
+				<div class="link-border">|</div>
+				<a href="about.html" class="nav-link">About Us</a>
+			</nav>
+		</header>
+		<div id="main">
+			<div class="title">
+				<h1>Mentoring</h1>
+			</div>
+			<div>
+				<p>As a team we currently mentor 15 FLL and 5 FRC teams. We try to support teams all around the globe through mentoring. We have strengthened the mentor network of New York City FIRST through our students and resources. Alumni have gone on to mentor many other FRC teams such as 449, 2265, 4640, etc. For the future, we will mentor 3 FIRST Global teams this summer: Team Kenya, Team Timor-Leste and Team Bhutan. In the fall we will mentor new LEGO robotics teams in Puerto Rico through Skype.</p>
+			</div>
+			<div id="gallery">
+				<figure class="gallery-box">
+					<a href="firstglobal.html">
+						<img src="photos/fgc/opening-ceremony.jpg" class="gallery-photos" alt="FGC">
+					</a>
+				</figure>
+				<figure class="gallery-box">
+					<a href="fll.html">
+						<img src="photos/fll/fll-qualifier.jpg" class="gallery-photos" alt="fll">
+					</a>
+				</figure>
+			</div>
+		</div>
+    </body>
 </html>
