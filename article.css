@@ -9,7 +9,7 @@ h1 {
 
 h4 {
     font-family: 'Raleway', sans-serif;
-    color: #ff0000;
+    color: red;
     font-size: 1.75em;
 }
 
@@ -37,7 +37,7 @@ a {
 
 
 .subtitle {
-    color: #ff0000;
+    color: red;
     font-size: 1em;
     font-family: 'Raleway', sans-serif
 }
@@ -52,7 +52,9 @@ a {
 	max-width: 100%;
 }
 
-
+#stuypulse {
+	color: red;
+}
 .gallery-photos {
 	display: block;
 	max-width: 100%;
